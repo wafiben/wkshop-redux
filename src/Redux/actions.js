@@ -1,9 +1,4 @@
-export const incremet=()=>{
-    return {type:'INCREMENT'}
-}
-export const decrement=()=>{
-    return {type:"DECREMENT"}
-}
-export const Reste=()=>{
-    return {type:"RESET"}
+export const addUser=(x)=>{
+
+    return {type:"ADD_USER",payload:x}
 }
